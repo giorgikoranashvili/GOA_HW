@@ -1,0 +1,5 @@
+name = ("levami")
+surname = ("koranashvili")
+age = (38)
+height = (1.80)
+print(name, surname, age, height)
