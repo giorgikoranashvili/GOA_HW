@@ -1,0 +1,4 @@
+name = "Giorgi"
+weight = 45
+height = 1.50
+print(name, weight, height)
