@@ -1,0 +1,11 @@
+num1=5.12
+num2=10.3
+num3=15.2
+num4=20.70
+num5=25.55
+num6=30.0
+num7=35.55
+num8=40.3
+num9=45.9
+num10=50.7
+print(num1,num2,num3,num4,num5,num6,num7,num8,num9,num10)

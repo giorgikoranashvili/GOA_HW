@@ -1,0 +1,11 @@
+num1=5
+num2=10
+num3=15
+num4=20
+num5=25
+num6=30
+num7=35
+num8=40
+num9=45
+num10=50
+print(num1,num2,num3,num4,num5,num6,num7,num8,num9,num10)

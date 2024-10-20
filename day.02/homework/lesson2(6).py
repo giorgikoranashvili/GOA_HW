@@ -1,0 +1,11 @@
+v1="Hello"
+v2="22"
+v3="apple"
+v4="age"
+v5="time"
+v6="700"
+v7="Giorgi"
+v8="yellow"
+v9="GOA"
+v10="strawberry"
+print(v1,v2,v3,v4,v5,v6,v7,v8,v9,v10)
