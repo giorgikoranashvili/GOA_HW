@@ -1,0 +1,60 @@
+<!-- პირველი -->
+ <!DOCTYPE html>
+<html>
+<head>
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            background-color: blue; /* ეს არის Internal CSS */
+        }
+
+        h1 {
+            border: 1px solid black; /* ეს მივუთითეთ ისე, თითქოს External, მაგრამ ამას გადავიტანთ ცალკე ფაილში ქვევით */
+        }
+
+        .my-button {
+            color: green;
+            background-color: red;
+            border: 1px solid blue;
+        }
+
+        body {
+            background-color: orange;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Inline CSS -->
+    <h1 style="color: green;">ეს არის სათაური (h1)</h1>
+
+    <button class="my-button">დააჭირე აქ</button>
+
+</body>
+</html>
+
+
+<!-- მეორე -->
+ <!-- 
+INLINE CSS:
+ეს არის სტილი, რომელიც ეწერება უშუალოდ HTML ელემენტზე `style` ატრიბუტით.
+მაგალითი: <h1 style="color: green;">ტექსტი</h1>
+-->
+
+<!-- 
+INTERNAL CSS:
+ეს სტილი განთავსებულია `<style>` ტეგში HTML დოკუმენტის `<head>` სექციაში.
+გამოიყენება მაშინ, როცა გვსურს სტილის აღწერა კონკრეტულად იმ დოკუმენტისთვის.
+-->
+
+<!-- 
+EXTERNAL CSS:
+სტილი გადამატებულია ცალკე .css ფაილში და HTML დოკუმენტს უკავშირდება <link> ტეგით.
+სასარგებლოა დიდი პროექტებისას, ერთ სტილში რამდენიმე გვერდის მართვისთვის.
+მაგ: <link rel="stylesheet" href="style.css">
+-->
+
+

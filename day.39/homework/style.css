@@ -1,0 +1,13 @@
+h1 {
+    border: 1px solid black; /* External CSS - h1 border */
+}
+
+.my-button {
+    color: green;
+    background-color: red;
+    border: 1px solid blue;
+}
+
+body {
+    background-color: orange;
+}

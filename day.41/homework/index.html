@@ -1,0 +1,110 @@
+<!-- პირველი -->
+ <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* პირველი და მეორე — წითელი ფერი */
+        .red-text {
+            color: red;
+        }
+
+        /* მესამე და მეოთხე — ლურჯი background */
+        .blue-background {
+            background-color: blue;
+        }
+
+        /* მეხუთე და მეექვსე — ბორდერი */
+        .purple-border {
+            border: 2px solid purple;
+        }
+
+        /* მეშვიდე და მერვე — ყავისფერი ფერი */
+        .brown-text {
+            color: brown;
+        }
+
+        /* მეცხრე და მეათე — ყვითელი ფერი */
+        .yellow-text {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <p class="red-text">პარაგრაფი 1</p>
+    <p class="red-text">პარაგრაფი 2</p>
+
+    <p class="blue-background">პარაგრაფი 3</p>
+    <p class="blue-background">პარაგრაფი 4</p>
+
+    <p class="purple-border">პარაგრაფი 5</p>
+    <p class="purple-border">პარაგრაფი 6</p>
+
+    <p class="brown-text">პარაგრაფი 7</p>
+    <p class="brown-text">პარაგრაფი 8</p>
+
+    <p class="yellow-text">პარაგრაფი 9</p>
+    <p class="yellow-text">პარაგრაფი 10</p>
+
+</body>
+</html>
+
+
+<!-- მეორე -->
+<!-- 
+CLASS:
+ეს ატრიბუტი HTML ელემენტებზე გამოიყენება, როცა გვსურს ერთნაირი სტილის მინიჭება ერთზე მეტ ელემენტზე.
+კლასის გამოყენება შეიძლება მრავალ ელემენტზე.
+მაგალითი:
+<p class="highlight">ეს არის პარაგრაფი</p>
+
+ID:
+ეს უნიკალური იდენტიფიკატორია ელემენტისთვის. ერთი და იგივე ID არ უნდა იყოს გამოყენებული ერთზე მეტ ელემენტზე.
+გამოიყენება კონკრეტული ელემენტის სტილიზაციის ან ჯავასკრიპტით ამოცნობისთვის.
+მაგალითი:
+<h1 id="main-title">ეს არის სათაური</h1>
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .common-paragraph {
+            font-style: italic;
+            color: gray;
+        }
+
+        #repeated-heading {
+            font-weight: bold;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ყველა p თაგს ერთნაირი class — კარგი პრაქტიკა -->
+    <p class="common-paragraph">პარაგრაფი 1</p>
+    <p class="common-paragraph">პარაგრაფი 2</p>
+    <p class="common-paragraph">პარაგრაფი 3</p>
+    <p class="common-paragraph">პარაგრაფი 4</p>
+
+    <!-- ყველა h1-ს ერთნაირი id — ცუდი პრაქტიკა -->
+    <h1 id="repeated-heading">სათაური 1</h1>
+    <h1 id="repeated-heading">სათაური 2</h1>
+    <h1 id="repeated-heading">სათაური 3</h1>
+    <h1 id="repeated-heading">სათაური 4</h1>
+
+</body>
+</html>
+
+<!-- ახსნა -->
+ <!-- 
+ცუდი პრაქტიკა:
+ერთი და იგივე ID-ის მინიჭება მრავალ ელემენტზე არის არასწორი.
+ID უნიკალური უნდა იყოს თითოეულ ელემენტზე.
+ეს იწვევს პრობლემებს CSS-ში და განსაკუთრებით JavaScript-ში, სადაც ელემენტის ამოცნობა კონკრეტული ID-ით ხდება.
+
+კარგი პრაქტიკა:
+CLASS-ის გამოყენება მრავალ ელემენტზე, როცა გვინდა მათთვის ერთნაირი სტილი. 
+ეს კოდის ორგანიზაციას ამარტივებს და სტანდარტს იცავს.
+-->
