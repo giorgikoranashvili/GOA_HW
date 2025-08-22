@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>ცხრილი სტილით</title>
+  <style>
+    /* 1) ყველა td და th-ს წითელი ბორდერი 2px */
+    td, th {
+      border: 2px solid red;
+    }
+
+    /* 2) ბორდერების შეუატყუპება */
+    table {
+      border-collapse: collapse;
+    }
+
+    /* 3) ყველა ლუწი tr-ის ლურჯი ფონი */
+    tr:nth-child(even) {
+      background-color: lightblue;
+    }
+
+    /* 4) thead (პირველი tr) - წითელი ფონი და თეთრი ტექსტი */
+    thead tr {
+      background-color: red;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <table>
+    <thead>
+      <tr>
+        <th>სახელი</th>
+        <th>გვარი</th>
+        <th>ასაკი</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>ნიკა</td>
+        <td>გიორგაძე</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td>ანა</td>
+        <td>კაპანაძე</td>
+        <td>22</td>
+      </tr>
+      <tr>
+        <td>ლაშა</td>
+        <td>ბერიძე</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>თეკლა</td>
+        <td>დვალიშვილი</td>
+        <td>27</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
+ 

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>List Styling - Level 50</title>
+  <style>
+    /* 2) სტილი UL-ისთვის: ოთხკუთხედები (squares) */
+    .square-list {
+      list-style-type: square;
+    }
+
+    /* 3) OL-ისთვის: სიის ფოტო */
+    .image-list {
+      list-style-image: url('https://cdn-icons-png.flaticon.com/16/1828/1828817.png');
+    }
+
+    /* 5) OL (რომაული ციფრებით) და შიგნით UL სიის სურათით */
+    .roman-list {
+      list-style-type: upper-roman;
+    }
+
+    .roman-list ul {
+      list-style-image: url('https://cdn-icons-png.flaticon.com/16/747/747376.png');
+    }
+
+    /* 4) list-style-position კომენტარით ახსნილია ქვემოთ */
+    .inside-list {
+      list-style-position: inside;
+    }
+
+    .outside-list {
+      list-style-position: outside;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 1) Sololearn სტილის მაგალითები (ულ-სთვის) -->
+  <h2> Styled UL - Basic</h2>
+  <ul class="square-list">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+
+  <!-- 3) Ordered list (OL) ფოტოებით -->
+  <h2>OL with list-style-image</h2>
+  <ol class="image-list">
+    <li>Item One</li>
+    <li>Item Two</li>
+    <li>Item Three</li>
+  </ol>
+
+  <!-- 4) list-style-position inside vs outside -->
+  <h2>list-style-position Example</h2>
+  <p><strong>Inside:</strong> ნიშანი ტექსტთან ერთად ხაზზე იწყება</p>
+  <ul class="inside-list">
+    <li>ეს ტექსტი იწყება მარცხენა კიდიდან და ბულეტიც მის ნაწილია.</li>
+    <li>ასე გამოიყურება როცა `inside` ვიყენებთ.</li>
+  </ul>
+
+  <p><strong>Outside:</strong> ნიშანი გარეთ რჩება და ტექსტი ერთ დონეზე არ იწყება</p>
+  <ul class="outside-list">
+    <li>ეს ტექსტი იწყება ნიშნის შემდეგ — ანუ უფრო მარჯვნივ.</li>
+    <li>ასე გამოიყურება როცა `outside` ვიყენებთ.</li>
+  </ul>
+
+  <!-- 5) OL (რომაული) + შიგნით UL (ფოტოებით) -->
+  <h2>OL with Roman numerals and nested UL with images</h2>
+  <ol class="roman-list">
+    <li>Plan A
+      <ul>
+        <li>Step 1</li>
+        <li>Step 2</li>
+      </ul>
+    </li>
+    <li>Plan B
+      <ul>
+        <li>Step 1</li>
+        <li>Step 2</li>
+      </ul>
+    </li>
+  </ol>
+
+</body>
+</html>
