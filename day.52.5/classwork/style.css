@@ -1,0 +1,11 @@
+ol{
+  list-style-type: disc;
+  list-style-position: inside;  
+}
+li{
+   color: blue;
+   background-color: aquamarine;
+}
+body{
+    background-color: blue;
+}

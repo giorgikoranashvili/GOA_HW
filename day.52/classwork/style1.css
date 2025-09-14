@@ -1,0 +1,25 @@
+table {
+      width: 600px;
+      border-collapse: collapse;
+      font-family: Arial, sans-serif;
+    }
+
+    th, td {
+      border: 3px solid yellow;
+      padding: 12px 15px;
+      text-align: left;
+    }
+
+    th {
+      background-color: red;
+      color: white;
+    }
+
+    td {
+      background-color: limegreen;
+      color: black;
+    }
+    thead tr:nth-child(1) td{
+        background-color: red;
+    }
+
