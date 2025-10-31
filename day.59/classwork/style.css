@@ -1,0 +1,11 @@
+body{
+    background-color: green;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 50px;
+    color: blue;
+    background-color: aqua
+}
