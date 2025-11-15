@@ -1,0 +1,15 @@
+.My-box {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        position: relative;
+        animation: moveAndColor 5s infinite alternate;
+    }
+
+    @keyframes moveAndColor {
+        0% { background-color: red; top: 0; }
+        25% { background-color: blue; top: 50px; }
+        50% { background-color: green; top: 100px; }
+        75% { background-color: yellow; top: 150px; }
+        100% { background-color: purple; top: 200px; }
+    }
