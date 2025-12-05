@@ -1,0 +1,32 @@
+
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+.box-1{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(0, 0%, 100%);
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+img{
+    border-radius: 10px;
+}
+.p-3{
+    position: absolute;
+    bottom: 0;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);  
+}
+.p-2{
+     position: absolute;
+     justify-content: center;
+    top: 10px;
+    text-align: center;
+}
