@@ -1,0 +1,27 @@
+.conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.BOX1{
+   background-color: blue;
+
+}
+
+.BOX2{
+    background-color: brown;
+ 
+
+}
+
+.BOX3{
+   background-color: blanchedalmond;
+
+}
+
+.BOX4{
+    background-color: aqua;
+ 
+}   
+

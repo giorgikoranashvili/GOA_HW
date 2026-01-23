@@ -1,0 +1,32 @@
+body{
+    background-color:  hsl(47, 88%, 63%);
+    position: relative;
+    top: 150px;
+}
+
+.box-1{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    height: 700px;
+    border-radius: 20px;
+}
+
+img{
+    position: relative;
+    top: -660px;
+    border-radius: 20px;
+    width: 500px;
+}
+
+p{
+    color: black;
+    background-color: hsl(47, 88%, 63%);
+    width: 90px;
+    font-size: 30px;
+    position: relative;
+    top: -665px;
+    right: 210px;
+}
+
