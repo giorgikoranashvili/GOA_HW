@@ -1,0 +1,32 @@
+body {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.wrapper {
+  background: #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 120px);
+  gap: 20px;
+  justify-content: center; 
+}
+
+.item {
+  width: 120px;
+  height: 120px;
+  background: blue;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 120px;
+    justify-content: center; 
+  }
+}

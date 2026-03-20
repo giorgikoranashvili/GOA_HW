@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f3f4f6;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    display:flex;
+    max-width:900px;
+    background:white;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:45%;
+    object-fit:cover;
+}
+
+.content{
+    padding:30px;
+}
+
+.content h2{
+    font-size:26px;
+    margin-bottom:15px;
+    color:#333;
+}
+
+.content p{
+    color:#666;
+    line-height:1.6;
+}
+
+.author{
+    display:flex;
+    align-items:center;
+    margin-top:20px;
+}
+
+.author img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    margin-right:10px;
+}
+
+.date{
+    color:#999;
+    font-size:14px;
+}

@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    width:320px;
+    background:white;
+    border-radius:10px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.header{
+    position:relative;
+}
+
+.header img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.name{
+    position:absolute;
+    bottom:40px;
+    left:20px;
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.job{
+    position:absolute;
+    bottom:15px;
+    left:20px;
+    color:#ddd;
+    font-size:14px;
+}
+
+.content{
+    padding:20px;
+}
+
+.stats{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom:15px;
+}
+
+.stats div{
+    text-align:center;
+}
+
+.stats span{
+    display:block;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.social{
+    display:flex;
+    justify-content:space-around;
+    margin:15px 0;
+}
+
+.social i{
+    font-size:20px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:space-between;
+}
+
+button{
+    width:48%;
+    padding:10px;
+    border-radius:25px;
+    border:none;
+    cursor:pointer;
+}
+
+.hire{
+    background:#2aa9ff;
+    color:white;
+}
+
+.more{
+    border:2px solid #2aa9ff;
+    background:white;
+    color:#2aa9ff;
+}
