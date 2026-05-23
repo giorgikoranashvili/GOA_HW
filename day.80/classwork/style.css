@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.nav {
+  background-color: darkblue;
+  color: white;
+  padding: 10px;
+}
+
+.nav a {
+  color: #ccc;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.right {
+  float: right;
+}
+
+.btn {
+  background-color: blue;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
+}

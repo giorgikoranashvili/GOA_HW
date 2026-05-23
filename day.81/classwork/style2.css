@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f7fb;
+    margin: 0;
+    padding: 40px;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #8BC34A;
+    padding: 5px;
+}
+
+.linkedin {
+    background: #0a66c2;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 12px;
+}
+
+h3 {
+    margin: 10px 0 5px;
+}
+
+.role {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.desc {
+    font-size: 14px;
+    color: #555;
+}
+
+.btn-box {
+    text-align: right;
+    margin-top: 20px;
+}
+
+button {
+    background: #1e3a8a;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #162d6b;
+}
